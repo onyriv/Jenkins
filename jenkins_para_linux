@@ -24,7 +24,7 @@ stages {
       }
     }
 
-    stage ('User goal '){
+    stage ('User goal ${User goal} '){
         steps{
             sh """
             mvn ${ goal }
