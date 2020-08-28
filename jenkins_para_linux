@@ -19,7 +19,7 @@ stages {
     stage ('checkout code from SCM'){
      steps{   
 
-         git branch: 'master', url: 'https://github.com/devopstrainers1/addressbook.git'
+         git branch: 'master', url: 'https://github.com/onyriv/Lesson-04.git'
 
       }
     }
